@@ -33,5 +33,5 @@ func TestHealthRoute(t *testing.T) {
 }
 
 func TestFail(t *testing.T) {
-	t.Error("Failed")
+	t.Error("TestFail Failed")
 }
