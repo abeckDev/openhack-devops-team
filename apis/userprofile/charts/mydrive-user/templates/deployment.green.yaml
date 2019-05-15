@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Values.image.name }}-deploy-green
+  name: mydrive-user-deploy-green
   labels:
     deploy: {{ .Values.image.label }}
 spec:
